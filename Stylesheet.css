@@ -1,0 +1,486 @@
+body{
+    width: 1366px;
+    height: 973px;
+    margin: auto;
+}
+.main{
+    position: relative;
+}
+.header {
+    position: relative;
+    height: 80px;
+    background-color: #CE0505;
+}
+.circle {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 102px;
+    top: 15px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}    
+.circle-text{
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32px;
+    height: 47px;
+    text-align: left;
+    font: normal normal 600 33px/50px Poppins, semibold;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+
+.Create-account-btn {
+    position: absolute;
+    top: 17px;
+    left: 1084px;
+    height: 46px;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    font: normal normal 500 16px/25px Poppins, Medium;
+    text-align: left;
+    letter-spacing: 0px;
+    border: none;
+    border: 1px solid #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 3px;
+    opacity: 1;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.Login-link {
+    position: absolute;
+    top: 29px;
+    left: 1015px;
+    width: 43px;
+    height: 23px;
+    text-align: left;
+    font: normal normal 500 16px/25px Poppins, Medium;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Home-text{
+    position: absolute;
+    top: 37px;
+    left: 113px;
+    width: 514px;
+    height: 51px;
+    text-align: left;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    white-space: nowrap;
+}
+.filter-sort{
+    position: absolute;
+    top: 115px;
+    left: 113px;
+    width: 260px;
+    height: 682px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.big-chill{
+    position: absolute;
+    top: 115px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.bake-shop{
+    position: absolute;
+    top: 440px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.pagination {
+    position: absolute;
+    top: 769px;
+    left: 650px;
+    display: flex;
+    gap: 10px;
+}
+.page-box {
+    width: 36px;
+    height: 36px;
+    color: #FFFFFF;
+    font: normal normal 500 20px/30px Poppins, Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8C96AB 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+.filter-text{
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    width: 55px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.cuisine-text{
+    position: absolute;
+    top: 123px;
+    left: 27px;
+    width: 52px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.dropdown-text{
+    position: absolute;
+    top: 50px;
+    left: 27px;
+    width: 106px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.dropdown{
+    position: absolute;
+    top: 81px;
+    left: 27px;
+    width: 208px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+}
+.cost-text{
+    position: absolute;
+    top: 332px;
+    left: 27px;
+    width: 89px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1; 
+}
+
+.sort-text{
+    position: absolute;
+    top: 546px;
+    left: 26px;
+    width: 37px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.checkbox-group input[type="checkbox"] {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    opacity: 1;
+    left: 27px;
+}
+
+#checkbox1 {
+    top: 175px;
+}
+
+#checkbox2 {
+    top: 207px; 
+}
+
+#checkbox3 {
+    top: 239px;
+}
+
+#checkbox4 {
+    top: 271px; 
+}
+
+#checkbox5 {
+    top: 303px; 
+}
+.checkbox-group label {
+    width: 86px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/26px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    position: absolute;
+    left: 56px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+label[for="checkbox1"] {
+    top: 175px;
+}
+label[for="checkbox2"] {
+    top: 207px;
+}
+
+label[for="checkbox3"] {
+    top: 239px;
+}
+
+label[for="checkbox4"] {
+    top: 271px;
+}
+
+label[for="checkbox5"] {
+    top: 303px;
+}
+
+.radio-group input[type="radio"]{
+    position: absolute;
+    left: 27px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3A5075;
+    border-radius: 9px;
+    opacity: 1;
+}
+
+#radio1{
+    top: 384px;
+}
+
+#radio2{
+    top: 416px;
+}
+
+#radio3{
+    top: 448px;
+}
+
+#radio4{
+    top: 480px;
+}
+
+#radio5{
+    top: 512px;
+}
+
+#radio6{
+    top: 601px;
+}
+
+#radio7{
+    top: 633px;
+}
+
+.radio-group label{
+    position: absolute;
+    white-space: nowrap;
+    left: 56px;
+    width: 104px;
+    height: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    cursor: pointer;
+    opacity: 1;
+    font: normal normal normal 14px/26px Poppins;
+}
+
+label[for="radio1"] {
+    top: 384px;
+}
+
+label[for="radio2"] {
+    top: 416px;
+}
+label[for="radio3"] {
+    top: 448px;
+}
+
+label[for="radio4"] {
+    top: 480px;
+}
+label[for="radio5"] {
+    top: 512px;
+}
+
+label[for="radio6"] {
+    top: 601px;
+}
+
+label[for="radio7"] {
+    top: 633px;
+}
+
+.imageContainer {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #imageContainer img {
+    max-width: auto;
+    max-height: auto;
+    object-fit: contain;
+} */
+
+.big-chill-text{
+    position: absolute;
+    top: 0px;
+    left: 196px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.big-chill-addr{
+    position: absolute;
+    top: 95px;
+    left: 201px;
+    width: 370px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+.big-chill-fort{
+    position: absolute;
+    top: 62px;
+    left: 201px;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font: normal normal 500 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+#line{
+    position: absolute;
+    top: 176px;
+    left: 35px;
+    width: 726px;
+    height: 0px;
+    border: 1px solid #DEDFE5;
+    opacity: 1;
+}
+
+.cuisine-cost{
+    position: absolute;
+    top: 202px;
+    left: 35px;
+    width: 140px;
+    height: 118px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.local-price{
+    position: absolute;
+    top: 202px;
+    left: 216px;
+    width: 251px;
+    height: 69px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bake-shop-text{
+    position: absolute;
+    top: 0px;
+    left: 196px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.bake-shop-addr{
+    position: absolute;
+    top: 95px;
+    left: 201px;
+    width: 370px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+.bake-shop-fort{
+    position: absolute;
+    top: 62px;
+    left: 201px;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font: normal normal 500 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
